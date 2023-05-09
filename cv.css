@@ -1,0 +1,159 @@
+body,
+div,
+h1,
+h2,
+p,
+img,
+ul,
+li,
+article,
+header,
+section {
+    font: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #181818;
+    font-family: 'Lato', helvetica, arial, sans-serif;
+}
+
+header {
+    display: flex;    
+    justify-content: space-between;
+    padding: 25px 35px;
+    border-bottom: 2px solid #3e9d98;
+    background-color: #fffffe;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.4em;
+    margin-bottom: 20px;
+    color: #444;
+    text-align: justify;
+}
+
+article, section {
+    display: flex;
+}
+
+#cv {
+    width: 90%;
+    max-width: 800px;
+    background: #f3f3f3;
+    margin: 30px auto;
+}
+
+#name_ctn h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+    font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+    margin-bottom: -6px;
+}
+
+#name_ctn h2 {
+    font-size: 2em;
+    margin-left: 2px;
+    font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+}
+
+#img_ctn {
+    width: 12.5%;
+    margin-right: 30px;
+}
+
+#img_ctn img {
+    width: 100%;
+    height: auto;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+
+#contact, #name_ctn {
+    align-self: center;
+}
+
+#contact ul {
+    list-style-type: none;
+    font-size: 0.9em;
+    margin-top: 2px;
+}
+
+#contact ul li {
+    margin-bottom: 3px;
+    color: #444;
+}
+
+#contact ul li a,
+a[href^=tel] {
+    color: #444;
+    text-decoration: none;
+}
+
+#contact ul li a:hover {
+    color: #6cb1b7;
+}
+
+#main_area {
+    padding: 0 40px;
+}
+
+section {
+    border-top: 1px solid #3e9d98;
+    padding: 20px 0 0;
+}
+
+section:first-child {
+    border-top: 0;
+}
+
+section:last-child {
+    padding: 20px 0 10px;
+}
+
+.section_title {
+    width: 25%;
+}
+
+.section_content {
+    display: flex;
+    flex-direction: column;
+    width: 72.5%;
+}
+
+.section_title h1 {
+    font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 1.5em;
+    color: #6cb1b7;
+}
+
+.section_content h2 {
+    font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+    font-size: 1.5em;
+    margin-bottom: -2px;
+}
+
+.section_content article {
+    flex-direction: column;
+}
+
+.date {
+    font-size: 0.8em;
+    font-style: italic;
+    margin-bottom: 3px;
+}
+
+.skill {
+    list-style-type: none;
+    column-count: 3;
+    margin-bottom: 20px;
+    font-size: 1em;
+    color: #444;
+}
+
+.skill ul li {
+    margin-bottom: 3px;
+}
